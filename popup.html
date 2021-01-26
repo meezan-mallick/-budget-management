@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Manager</title>
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/popup.js"></script>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/popup.css">
+    
+</head>
+<body>
+   <div class="container">
+       <div id="head" class="row">
+           <div class="p-3 col-2">
+               <img src="icons/icon48.png" alt="Budget Manager logo" >
+               
+           </div>
+           <div class="col-10">
+            <h4 class="p-4">Budget Manager</h4>
+           </div>
+       </div>
+      
+       <div class="row">
+           <div class="col-12 text-center p-4">
+               <h3 id="spend" class="text-success">0 ₹</h3>
+               <h6>Total Spend</h6>
+           </div>
+       </div>
+      
+       <div class="row pb-3">
+           <div class="col-12 pl-3">
+               <h5>Limit : 1000 ₹</h5>
+           </div>
+       </div>
+
+
+       <div class="row pb-3">
+           <div class="col-8 form-group">
+               <input type="number" id="amt" class="form-control" placeholder="Enter Amount">
+           
+              
+           </div>
+           <div class="col-2 form-group">
+               <button id="submit" class="btn btn-info">Spend</button>
+           </div>
+       </div>
+   </div>
+
+
+</body>
+</html>
