@@ -15,5 +15,13 @@
         "default_icon":"icons/icon16.png",
         "default_popup": "popup.html" 
     },
-    "permissions":["storage"]
+
+    
+
+    "options_page": "options.html",
+
+    "permissions":[
+        "storage",
+        "notifications"
+    ]
 }
